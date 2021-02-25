@@ -1,0 +1,17 @@
+@import "../../styles/shared.scss";
+
+$sidebar-hover-color: #282828;
+.ui.menu.fixed.side-nav {
+  background-color: #1e1e1e;
+  // margin-top: $header-nav-height;
+  //overflow-y: auto;
+  padding-bottom: $header-nav-height;
+
+  .sidebar-item:hover {
+    background: $sidebar-hover-color;
+  }
+}
+
+.side-nav.ui.vertical.menu {
+  width: $sidebar-left-width;
+}

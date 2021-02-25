@@ -1,0 +1,41 @@
+{
+  "name": "holoview-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.2.6",
+    "dayjs": "^1.10.4",
+    "gh-pages": "^2.0.1",
+    "javascript-time-ago": "^2.3.4",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.0",
+    "react-dom": "^17.0.1",
+    "react-loading": "^2.0.3",
+    "react-rounded-image": "^2.0.11",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "4.0.2",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^4.1.2"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "npm run build&&gh-pages -d build",
+    "start": "set PORT=3005 && react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {}
+}
